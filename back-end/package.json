@@ -1,0 +1,24 @@
+{
+    "name": "back-end",
+    "version": "1.0.0",
+    "description": "Word prediction",
+    "main": "dispatcher/dispatcher.js",
+    "scripts": {
+        "build": "rm -rf dist && tsc",
+        "copy-files": "cp src/*.py dist/src/",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "npx ts-node "
+    },
+    "author": "Nathan <nathan.lechamo@gmail.com>",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/ws": "^8.5.4",
+        "dotenv": "^16.0.1",
+        "ts-node": "^10.4.0",
+        "typescript": "^4.5.2"
+    },
+    "dependencies": {
+        "log4js": "^6.8.0",
+        "ws": "^8.12.1"
+    }
+}

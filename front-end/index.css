@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-control {
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.suggested-text {
+    color: bisque;
+}
+
+.form-outline {
+    max-width: 30%;
+}
